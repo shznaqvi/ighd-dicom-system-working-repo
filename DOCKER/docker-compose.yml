@@ -1,0 +1,47 @@
+# docker-compose-dev.yml
+services:
+  dicom_browser_app:
+    build: .
+    container_name: dicom_browser_app_dev
+    restart: unless-stopped
+    environment:
+      - DICOM_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+    volumes:
+      - H:/IGHD_DICOM_VIEWER/raw_data:/raw_data:ro
+      - H:/IGHD_DICOM_VIEWER/qc_data:/qc_data:rw
+    networks:
+      - dicom_dev_network
+
+  dicom_upload_server:
+    build: .
+    container_name: dicom_upload_server_dev
+    restart: unless-stopped
+    command: gunicorn -w 2 -k uvicorn.workers.UvicornWorker dicom_upload_server:app --bind 0.0.0.0:8502
+    environment:
+      - PORT=8502
+      - OUTPUT_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+    volumes:
+      - H:/IGHD_DICOM_VIEWER/raw_data:/raw_data:rw
+      - H:/IGHD_DICOM_VIEWER/qc_data:/qc_data:rw
+    networks:
+      - dicom_dev_network
+
+  dicom_upload_client:
+    build: .
+    container_name: dicom_upload_client_dev
+    restart: unless-stopped
+    environment:
+      - DICOM_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+      - UPLOAD_SERVER_URL_INTERNAL=http://dicom_upload_server_dev:8502
+    volumes:
+      - H:/IGHD_DICOM_VIEWER/raw_data:/raw_data:ro
+      - H:/IGHD_DICOM_VIEWER/qc_data:/qc_data:ro
+    networks:
+      - dicom_dev_network
+
+networks:
+  dicom_dev_network:
+    driver: bridge

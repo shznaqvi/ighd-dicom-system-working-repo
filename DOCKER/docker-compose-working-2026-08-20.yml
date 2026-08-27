@@ -1,0 +1,60 @@
+services:
+  dicom_browser_app:
+    build: .
+    container_name: dicom_browser_app
+    command: streamlit run dicom_browser_app.py --server.port=8501 --server.address=0.0.0.0 --server.enableCORS=false --server.enableXsrfProtection=false --browser.gatherUsageStats=false
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    environment:
+      - DICOM_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+      - UPLOADER_URL=http://${HOST_NAME:-localhost}:8503
+    volumes:
+      - raw_data_volume:/raw_data:rw
+      - qc_data_volume:/qc_data:rw
+
+  dicom_upload_server:
+    build: .
+    container_name: dicom_upload_server_app
+    command: python dicom_upload_server.py
+    restart: unless-stopped
+    ports:
+      - "0.0.0.0:8502:8502"
+    environment:
+      - PORT=8502
+      - OUTPUT_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+      - VIEWER_URL=http://${HOST_NAME:-localhost}:8501
+    volumes:
+      - raw_data_volume:/raw_data:rw
+      - qc_data_volume:/qc_data:rw
+
+  dicom_upload_client:
+    build: .
+    container_name: dicom_upload_client_app
+    command: streamlit run dicom_upload_client.py --server.port=8503 --server.address=0.0.0.0 --server.enableCORS=false --server.enableXsrfProtection=false --browser.gatherUsageStats=false
+    restart: unless-stopped
+    ports:
+      - "8503:8503"
+    environment:
+      - DICOM_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+      - UPLOAD_SERVER_URL_INTERNAL=http://dicom_upload_server:8502
+      - UPLOAD_SERVER_URL=http://${HOST_NAME:-localhost}:8502
+      - VIEWER_URL=http://${HOST_NAME:-localhost}:8501
+    volumes:
+      - raw_data_volume:/raw_data:ro
+      - qc_data_volume:/qc_data:ro
+
+volumes:
+  raw_data_volume:
+    name: dicom_raw_data_persistent
+    driver: local
+  qc_data_volume:
+    name: dicom_qc_data_persistent
+    driver: local
+
+networks:
+  default:
+    name: dicom_network

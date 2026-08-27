@@ -1,0 +1,96 @@
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: dicom_nginx_proxy
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./certs:/etc/nginx/certs:ro
+    depends_on:
+      - dicom_browser_app
+      - dicom_upload_server
+      - dicom_upload_client
+
+  dicom_browser_app:
+    build: .
+    container_name: dicom_browser_app
+    init: true
+    restart: always
+    environment:
+      - DICOM_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+    volumes:
+      - raw_data_volume:/raw_data:rw
+      - qc_data_volume:/qc_data:rw
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 4G
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+  dicom_upload_server:
+    build: .
+    container_name: dicom_upload_server_app
+    init: true
+    restart: always
+    command: gunicorn -w 4 -k uvicorn.workers.UvicornWorker dicom_upload_server:app --bind 0.0.0.0:8502
+    environment:
+      - PORT=8502
+      - OUTPUT_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+    volumes:
+      - raw_data_volume:/raw_data:rw
+      - qc_data_volume:/qc_data:rw
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 4G
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+  dicom_upload_client:
+    build: .
+    container_name: dicom_upload_client_app
+    init: true
+    restart: always
+    environment:
+      - DICOM_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+      - UPLOAD_SERVER_URL_INTERNAL=http://dicom_upload_server:8502
+    volumes:
+      - raw_data_volume:/raw_data:ro
+      - qc_data_volume:/qc_data:ro
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 2G
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+volumes:
+  raw_data_volume:
+    name: dicom_raw_data_persistent
+    driver: local
+  qc_data_volume:
+    name: dicom_qc_data_persistent
+    driver: local
+
+networks:
+  default:
+    name: dicom_network

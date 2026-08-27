@@ -1,0 +1,4931 @@
+{
+  "Unknown": [
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\desktop.ini",
+      "patient_id": "Unknown",
+      "study_id": "Unknown",
+      "study_date": "Unknown",
+      "modality": "Unknown",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    }
+  ],
+  "1102074-0222-002-01-02": [
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250830_130416\\IMG_20260415_1_1.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250830",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.060087,
+        0.060087
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250830_130416\\IMG_20260415_1_10.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250830",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250830_130416\\IMG_20260415_1_2.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250830",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.076234,
+        0.076234
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250830_130416\\IMG_20260415_1_3.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250830",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.076344,
+        0.076344
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250830_130416\\IMG_20260415_1_4.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250830",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250830_130416\\IMG_20260415_1_5.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250830",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.057393,
+        0.057393
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250830_130416\\IMG_20260415_1_6.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250830",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250830_130416\\IMG_20260415_1_7.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250830",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250830_130416\\IMG_20260415_1_8.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250830",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250830_130416\\IMG_20260415_1_9.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250830",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250830_130416\\IMG_20260415_1_SR_OBGYN.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250830",
+      "modality": "SR",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_1.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_10.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.077104,
+        0.077104
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_11.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.084814,
+        0.084814
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_12.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.077104,
+        0.077104
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_13.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.061535,
+        0.061535
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_14.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.061535,
+        0.061535
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_15.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_16.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_17.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_18.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_19.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_2.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.176205,
+        0.176205
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_20.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_21.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_22.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_23.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_24.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_25.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_26.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_27.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_3.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.048828,
+        0.048828
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_4.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.061035,
+        0.061035
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_5.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.053646,
+        0.053646
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_6.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.073539,
+        0.073539
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_7.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_8.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_9.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20250924_113704\\IMG_20260415_1_SR_OBGYN.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20250924",
+      "modality": "SR",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_1.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_10.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_11.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.096297,
+        0.096297
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_12.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.096297,
+        0.096297
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_13.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.319958,
+        0.319958
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_14.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.205061,
+        0.205061
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_15.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.205061,
+        0.205061
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_16.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.088072,
+        0.088072
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_17.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.08167,
+        0.08167
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_18.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_19.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 146,
+      "pixel_spacing": [
+        0.118569,
+        0.118569
+      ],
+      "frame_time": 20.6396,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_2.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.060488,
+        0.060488
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_20.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.118569,
+        0.118569
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_21.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.09007,
+        0.09007
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_22.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.09007,
+        0.09007
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_23.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.09007,
+        0.09007
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_24.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.09058,
+        0.09058
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_25.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.09058,
+        0.09058
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_26.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.163619,
+        0.163619
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_27.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.163619,
+        0.163619
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_28.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.208242,
+        0.208242
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_29.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.208242,
+        0.208242
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_3.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.060488,
+        0.060488
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_30.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_31.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_32.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.090701,
+        0.090701
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_33.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.208242,
+        0.208242
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_34.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.208242,
+        0.208242
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_35.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 146,
+      "pixel_spacing": [
+        0.118569,
+        0.118569
+      ],
+      "frame_time": 20.6361,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_36.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.243073,
+        0.243073
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_37.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.243073,
+        0.243073
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_38.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.098669,
+        0.098669
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_39.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.098669,
+        0.098669
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_4.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.126536,
+        0.126536
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_40.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.098669,
+        0.098669
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_41.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.148544,
+        0.148544
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_42.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.151725,
+        0.151725
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_43.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_44.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_45.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_46.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_47.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_48.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_49.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_5.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.074182,
+        0.074182
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_50.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_51.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_52.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_53.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_6.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.148866,
+        0.148866
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_7.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.133196,
+        0.133196
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_8.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.041562,
+        0.041562
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_9.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20251103_133236\\IMG_20260415_1_SR_OBGYN.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20251103",
+      "modality": "SR",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_1.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.093348,
+        0.093348
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_10.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.179632,
+        0.179632
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_11.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.147486,
+        0.147486
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_12.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.176983,
+        0.176983
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_13.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_14.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_15.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_16.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_17.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.495173,
+        0.495173
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_18.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.317357,
+        0.317357
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_19.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_2.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_20.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_21.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_22.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 43,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 55.8557,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_23.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 55,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 55.8563,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_24.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 87,
+      "pixel_spacing": [
+        0.081923,
+        0.081923
+      ],
+      "frame_time": 34.7005,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_25.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 87,
+      "pixel_spacing": [
+        0.081923,
+        0.081923
+      ],
+      "frame_time": 34.7005,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_26.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 87,
+      "pixel_spacing": [
+        0.081923,
+        0.081923
+      ],
+      "frame_time": 34.7005,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_27.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_28.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 23,
+      "pixel_spacing": [
+        0.084512,
+        0.084512
+      ],
+      "frame_time": 34.7869,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_29.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_3.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_30.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_31.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.077121,
+        0.077121
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_32.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_33.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_34.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_35.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_36.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_37.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_38.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_39.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_4.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.12087,
+        0.12087
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_40.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_41.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_42.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_43.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_44.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_45.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_5.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.140874,
+        0.140874
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_6.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.140874,
+        0.140874
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_7.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_8.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.426472,
+        0.426472
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_9.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.426472,
+        0.426472
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260116_122037\\IMG_20260415_1_SR_OBGYN.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260116",
+      "modality": "SR",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_1.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_10.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.142795,
+        0.142795
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_11.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.142795,
+        0.142795
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_12.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.441226,
+        0.441226
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_13.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.441226,
+        0.441226
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_14.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_15.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_16.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_17.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_18.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_19.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_2.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.273711,
+        0.273711
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_20.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_21.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_22.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_23.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_24.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_3.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_4.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_5.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_6.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.427072,
+        0.427072
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_7.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.197511,
+        0.197511
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_8.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_9.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.197511,
+        0.197511
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Naheed\\1102074-0222-002-01-02__\\20260310_130550\\IMG_20260415_1_SR_OBGYN.dcm",
+      "patient_id": "1102074-0222-002-01-02",
+      "study_id": "1",
+      "study_date": "20260310",
+      "modality": "SR",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    }
+  ],
+  "1102003-0205-002-01-01": [
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_1.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_10.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.128163,
+        0.128163
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_11.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_12.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_13.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.170884,
+        0.170884
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_14.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.048828,
+        0.048828
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_15.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.048828,
+        0.048828
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_16.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.048828,
+        0.048828
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_17.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.048828,
+        0.048828
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_18.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.052246,
+        0.052246
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_19.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_2.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.194671,
+        0.194671
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_20.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_21.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_22.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_23.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_24.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_25.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_26.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_27.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_3.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.086927,
+        0.086927
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_4.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.082673,
+        0.082673
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_5.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.082673,
+        0.082673
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_6.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.081749,
+        0.081749
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_7.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_8.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.048828,
+        0.048828
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_9.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.065015,
+        0.065015
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_SR_OBGYN.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20250911",
+      "modality": "SR",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_1.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.089362,
+        0.089362
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_10.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.230065,
+        0.230065
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_11.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.064716,
+        0.064716
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_12.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.230065,
+        0.230065
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_13.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.055106,
+        0.055106
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_14.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.055106,
+        0.055106
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_15.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.055106,
+        0.055106
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_16.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_17.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.055106,
+        0.055106
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_18.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.230065,
+        0.230065
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_19.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.230065,
+        0.230065
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_2.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.085984,
+        0.085984
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_20.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.230065,
+        0.230065
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_21.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.230065,
+        0.230065
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_22.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.083035,
+        0.083035
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_23.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.083035,
+        0.083035
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_24.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.080627,
+        0.080627
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_25.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.080627,
+        0.080627
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_26.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.358972,
+        0.358972
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_27.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.230065,
+        0.230065
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_28.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.06243,
+        0.06243
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_29.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_3.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.085112,
+        0.085112
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_30.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_31.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.058133,
+        0.058133
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_32.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.067075,
+        0.067075
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_33.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.059369,
+        0.059369
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_34.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.051637,
+        0.051637
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_35.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.048828,
+        0.048828
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_36.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.084457,
+        0.084457
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_37.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.085227,
+        0.085227
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_38.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_39.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_4.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.086099,
+        0.086099
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_40.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_41.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_42.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_43.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_44.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_45.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_5.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.086099,
+        0.086099
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_6.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.094664,
+        0.094664
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_7.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.09877,
+        0.09877
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_8.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.15817,
+        0.15817
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_9.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.085698,
+        0.085698
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20251027_114049\\IMG_20260415_3_SR_OBGYN.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20251027",
+      "modality": "SR",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_1.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.139021,
+        0.139021
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_10.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.13487,
+        0.13487
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_11.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.13521,
+        0.13521
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_12.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_13.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_14.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_15.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.631375,
+        0.631375
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_16.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 57,
+      "pixel_spacing": [
+        0.170884,
+        0.170884
+      ],
+      "frame_time": 53.4328,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_17.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 57,
+      "pixel_spacing": [
+        0.170884,
+        0.170884
+      ],
+      "frame_time": 53.4373,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_18.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 57,
+      "pixel_spacing": [
+        0.170884,
+        0.170884
+      ],
+      "frame_time": 53.4418,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_19.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.146472,
+        0.146472
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_2.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.080662,
+        0.080662
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_20.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.146472,
+        0.146472
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_21.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.146472,
+        0.146472
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_3.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.123892,
+        0.123892
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_4.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.127095,
+        0.127095
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_5.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_6.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_7.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_8.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_2_9.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_1.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.139021,
+        0.139021
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_10.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.13487,
+        0.13487
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_11.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.13521,
+        0.13521
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_12.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_13.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_14.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_15.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.631375,
+        0.631375
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_16.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 57,
+      "pixel_spacing": [
+        0.170884,
+        0.170884
+      ],
+      "frame_time": 53.4328,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_17.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 57,
+      "pixel_spacing": [
+        0.170884,
+        0.170884
+      ],
+      "frame_time": 53.4373,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_18.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 57,
+      "pixel_spacing": [
+        0.170884,
+        0.170884
+      ],
+      "frame_time": 53.4418,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_19.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.146472,
+        0.146472
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_2.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.080662,
+        0.080662
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_20.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.146472,
+        0.146472
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_21.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.146472,
+        0.146472
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_22.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.091365,
+        0.091365
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_23.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 136,
+      "pixel_spacing": [
+        0.091365,
+        0.091365
+      ],
+      "frame_time": 22.2759,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_24.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 82,
+      "pixel_spacing": [
+        0.091365,
+        0.091365
+      ],
+      "frame_time": 30.3203,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_25.0.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 23,
+      "pixel_spacing": [
+        0.091365,
+        0.091365
+      ],
+      "frame_time": 30.5934,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_26.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 100,
+      "pixel_spacing": [
+        0.091365,
+        0.091365
+      ],
+      "frame_time": 30.5908,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_27.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 99,
+      "pixel_spacing": [
+        0.091365,
+        0.091365
+      ],
+      "frame_time": 30.5917,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_28.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 84,
+      "pixel_spacing": [
+        0.091095,
+        0.091095
+      ],
+      "frame_time": 30.885,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_29.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 5,
+      "pixel_spacing": [
+        0.091095,
+        0.091095
+      ],
+      "frame_time": 30.0649,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_3.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.123892,
+        0.123892
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_30.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 7,
+      "pixel_spacing": [
+        0.092245,
+        0.092245
+      ],
+      "frame_time": 35.2945,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_31.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 30,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5489,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_32.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_33.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_34.0.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_35.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_36.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5424,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_37.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_38.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_39.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 17,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 65.5209,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_4.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.127095,
+        0.127095
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_40.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 47,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 65.5215,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_41.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 25,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5475,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_42.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_43.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_44.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 9,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5371,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_45.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_46.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_47.0.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_48.0.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 42,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 72.5485,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_49.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.120561,
+        0.120561
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_5.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_50.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_51.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_52.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_53.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_54.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_55.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_56.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.127259,
+        0.127259
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_57.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.127259,
+        0.127259
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_58.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.09195,
+        0.09195
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_59.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 19,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 69.2833,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_6.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_60.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 44,
+      "pixel_spacing": [
+        0.190889,
+        0.190889
+      ],
+      "frame_time": 69.2788,
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_61.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.134745,
+        0.134745
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_62.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.134745,
+        0.134745
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_63.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_64.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.143167,
+        0.143167
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_65.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_66.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_67.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_68.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_69.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_7.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_70.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_71.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_72.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_73.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_74.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_75.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_76.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_77.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_78.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_79.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_8.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_9.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260109_124530\\IMG_20260415_3_SR_OBGYN.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260109",
+      "modality": "SR",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_1.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.273711,
+        0.273711
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_10.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_11.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.104351,
+        0.104351
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_12.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_13.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_14.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_15.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_16.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_17.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_18.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_19.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_2.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.199346,
+        0.199346
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_20.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_21.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_3.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_4.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.188176,
+        0.188176
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_5.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.382826,
+        0.382826
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_6.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_7.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.165468,
+        0.165468
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_8.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": [
+        0.393022,
+        0.393022
+      ],
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_9.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "US",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    },
+    {
+      "file_path": "C:\\Users\\hassan.naqvi\\OneDrive - Aga Khan University\\Mahnaz Ambareen's files - QC Hassan bhai\\Nasreen\\1102003-0205-002-01-01__\\20260228_113119\\IMG_20260415_3_SR_OBGYN.dcm",
+      "patient_id": "1102003-0205-002-01-01",
+      "study_id": "1",
+      "study_date": "20260228",
+      "modality": "SR",
+      "num_frames": 1,
+      "pixel_spacing": "",
+      "frame_time": "",
+      "study_desc": "",
+      "report_text": ""
+    }
+  ]
+}

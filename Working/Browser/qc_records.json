@@ -1,0 +1,74 @@
+{
+  "1.2.276.0.26.1.1.1.2.2025.290.31418.4996577.24903680": {
+    "Anomaly": {
+      "doctor": "Dr. A",
+      "case_no": "1102003-0205-002-01-01",
+      "date": "2025-09-11",
+      "head_tv": {
+        "overall": "Not Applicable",
+        "criteria": {
+          "crit_1": null,
+          "crit_2": null,
+          "crit_3": null,
+          "crit_4": null,
+          "crit_5": null,
+          "crit_6": null,
+          "crit_7": null
+        }
+      },
+      "head_tc": {
+        "overall": "Not Applicable",
+        "criteria": {
+          "crit_1": null,
+          "crit_2": null,
+          "crit_3": null,
+          "crit_4": null,
+          "crit_5": null,
+          "crit_6": null,
+          "crit_7": null
+        }
+      },
+      "anom_abd": {
+        "overall": "Not Applicable",
+        "criteria": {
+          "crit_1": null,
+          "crit_2": null,
+          "crit_3": null,
+          "crit_4": null,
+          "crit_5": null,
+          "crit_6": null
+        }
+      },
+      "anom_fem": {
+        "overall": "Not Applicable",
+        "criteria": {
+          "crit_1": null,
+          "crit_2": null,
+          "crit_3": null,
+          "crit_4": null
+        }
+      },
+      "spine": {
+        "overall": "Not Applicable",
+        "criteria": {
+          "crit_1": null,
+          "crit_2": null,
+          "crit_3": null,
+          "crit_4": null,
+          "crit_5": null,
+          "crit_6": null,
+          "crit_7": null
+        }
+      },
+      "face": {
+        "overall": "Not Applicable",
+        "criteria": {
+          "crit_1": null,
+          "crit_2": null,
+          "crit_3": null,
+          "crit_4": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "1.2.276.0.26.1.1.1.2.2025.290.31418.4996577.24903680": {
+    "image_path": "E:\\IGHD_DICOM_VIEWER\\raw_data\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_1.dcm",
+    "doctor": "Dr. A",
+    "case_no": "1102003-0205-002-01-01",
+    "date": "2025-09-11",
+    "crl": {
+      "overall": "Not Applicable",
+      "criteria": {
+        "crit_0": "Acceptable",
+        "crit_1": "Acceptable",
+        "crit_2": "Acceptable",
+        "crit_3": "Acceptable",
+        "crit_4": "Acceptable",
+        "crit_5": "Acceptable"
+      }
+    },
+    "nt": {
+      "overall": "Not Applicable",
+      "criteria": {
+        "crit_0": "Acceptable",
+        "crit_1": "Acceptable",
+        "crit_2": "Acceptable",
+        "crit_3": "Acceptable",
+        "crit_4": "Acceptable",
+        "crit_5": "Acceptable"
+      }
+    }
+  },
+  "1.2.276.0.26.1.1.1.2.2025.290.31466.4446001.24903680": {
+    "image_path": "E:\\IGHD_DICOM_VIEWER\\raw_data\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_2.dcm",
+    "doctor": "Dr. A",
+    "case_no": "1102003-0205-002-01-01",
+    "date": "2025-09-11",
+    "crl": {
+      "overall": "Unacceptable",
+      "criteria": {
+        "crit_0": "Acceptable",
+        "crit_1": "Acceptable",
+        "crit_2": "Acceptable",
+        "crit_3": "Acceptable",
+        "crit_4": "Acceptable",
+        "crit_5": "Acceptable"
+      }
+    },
+    "nt": {
+      "overall": "Unacceptable",
+      "criteria": {
+        "crit_0": "Acceptable",
+        "crit_1": "Acceptable",
+        "crit_2": "Acceptable",
+        "crit_3": "Acceptable",
+        "crit_4": "Acceptable",
+        "crit_5": "Acceptable"
+      }
+    }
+  },
+  "1.2.276.0.26.1.1.1.2.2025.290.32721.7600978.24903680": {
+    "image_path": "E:\\IGHD_DICOM_VIEWER\\raw_data\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_8.dcm",
+    "doctor": "Dr. A",
+    "case_no": "1102003-0205-002-01-01",
+    "date": "2025-09-11",
+    "crl": {
+      "overall": "Acceptable",
+      "criteria": {
+        "crit_0": "Acceptable",
+        "crit_1": "Acceptable",
+        "crit_2": "Acceptable",
+        "crit_3": "Acceptable",
+        "crit_4": "Acceptable",
+        "crit_5": "Acceptable"
+      }
+    },
+    "nt": {
+      "overall": "Acceptable",
+      "criteria": {
+        "crit_0": "Acceptable",
+        "crit_1": "Unacceptable",
+        "crit_2": "Acceptable",
+        "crit_3": "Acceptable",
+        "crit_4": "Acceptable",
+        "crit_5": "Acceptable"
+      }
+    }
+  },
+  "1.2.276.0.26.1.1.1.2.2025.290.31959.1392480.24903680": {
+    "image_path": "E:\\IGHD_DICOM_VIEWER\\raw_data\\Nasreen\\1102003-0205-002-01-01__\\20250911_134123\\IMG_20260415_3_4.dcm",
+    "doctor": "Dr. A",
+    "case_no": "1102003-0205-002-01-01",
+    "date": "2025-09-11",
+    "crl": {
+      "overall": "Acceptable",
+      "criteria": {
+        "crit_0": "Acceptable",
+        "crit_1": "Acceptable",
+        "crit_2": "Acceptable",
+        "crit_3": "Acceptable",
+        "crit_4": "Acceptable",
+        "crit_5": "Acceptable"
+      }
+    },
+    "nt": {
+      "overall": "Not Applicable",
+      "criteria": {
+        "crit_0": "Acceptable",
+        "crit_1": "Acceptable",
+        "crit_2": "Acceptable",
+        "crit_3": "Acceptable",
+        "crit_4": "Acceptable",
+        "crit_5": "Acceptable"
+      }
+    }
+  }
+}

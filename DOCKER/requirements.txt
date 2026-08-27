@@ -1,0 +1,18 @@
+# Streamlit Framework (1.38+ required for st.fragment and width="stretch")
+streamlit>=1.38.0,<2.0.0
+
+# DICOM & Medical Image Processing
+pydicom>=2.4.4,<3.0.0
+pillow>=10.2.0,<11.0.0
+imageio>=2.34.0,<3.0.0
+imageio-ffmpeg>=0.4.9,<1.0.0
+
+# Data Handling & Plotting
+pandas>=2.2.0,<3.0.0
+matplotlib>=3.8.0,<4.0.0
+
+# FastAPI Server & API Client
+fastapi>=0.110.0,<1.0.0
+uvicorn[standard]>=0.28.0,<1.0.0
+requests>=2.31.0,<3.0.0
+python-multipart>=0.0.9,<1.0.0
