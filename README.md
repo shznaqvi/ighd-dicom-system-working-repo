@@ -62,11 +62,11 @@ A containerized, microservice-based ultrasound PACS reviewer, clinical Quality C
 
 | PACS Viewer & Cine Player | Server Inventory & File Verification |
 | :---: | :---: |
-| ![PACS Viewer](DOCKER/docs/images/DICOM_viewer_main.jpg) | ![Study Inventory](docs/images/DICOM_study_inventory.jpg) |
+| ![PACS Viewer](DOCKER/docs/images/DICOM_viewer_main.jpg) | ![Study Inventory](DOCKER/docs/images/DICOM_study_inventory.jpg) |
 
 | Clinical QC Assessment & Evidence | Active DICOM Tag Inspector |
 | :---: | :---: |
-| ![QC Assessment](docs/images/DICOM_qc_form_assessment.jpg) | ![Metadata Inspector](docs/images/DICOM_metadata_inspector.jpg) |
+| ![QC Assessment](DOCKER/docs/images/DICOM_qc_form_assessment.jpg) | ![Metadata Inspector](DOCKER/docs/images/DICOM_metadata_inspector.jpg) |
 
 ---
 
