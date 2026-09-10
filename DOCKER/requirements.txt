@@ -11,8 +11,9 @@ imageio-ffmpeg>=0.4.9,<1.0.0
 pandas>=2.2.0,<3.0.0
 matplotlib>=3.8.0,<4.0.0
 
-# FastAPI Server & API Client
+# FastAPI Server, WSGI/ASGI & API Client
 fastapi>=0.110.0,<1.0.0
 uvicorn[standard]>=0.28.0,<1.0.0
+gunicorn>=21.2.0,<23.0.0
 requests>=2.31.0,<3.0.0
 python-multipart>=0.0.9,<1.0.0

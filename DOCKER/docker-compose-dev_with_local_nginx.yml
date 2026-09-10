@@ -1,0 +1,72 @@
+services:
+  # -----------------------------------------------------
+  # 1. DICOM Viewer UI (Streamlit)
+  # -----------------------------------------------------
+  dicom_browser_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dicom_browser_app
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    command: streamlit run dicom_browser_app.py --server.port=8501 --server.address=0.0.0.0 --server.baseUrlPath=dicomviewer
+    environment:
+      - DICOM_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+    volumes:
+      - .:/app
+      - H:/IGHD_DICOM_VIEWER/raw_data:/raw_data:ro
+      - H:/IGHD_DICOM_VIEWER/qc_data:/qc_data:rw
+    networks:
+      - shared_proxy_network
+
+  # -----------------------------------------------------
+  # 2. Upload Server Backend (FastAPI)
+  # -----------------------------------------------------
+  dicom_upload_server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dicom_upload_server
+    restart: unless-stopped
+    ports:
+      - "8502:8502"
+    command: uvicorn dicom_upload_server:app --host 0.0.0.0 --port 8502 --reload
+    environment:
+      - PORT=8502
+      - OUTPUT_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+    volumes:
+      - .:/app
+      - H:/IGHD_DICOM_VIEWER/raw_data:/raw_data:rw
+      - H:/IGHD_DICOM_VIEWER/qc_data:/qc_data:rw
+    networks:
+      - shared_proxy_network
+
+  # -----------------------------------------------------
+  # 3. Upload Client UI (Streamlit)
+  # -----------------------------------------------------
+  dicom_upload_client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dicom_upload_client
+    restart: unless-stopped
+    ports:
+      - "8503:8503"
+    command: streamlit run dicom_upload_client.py --server.port=8503 --server.address=0.0.0.0 --server.baseUrlPath=dicomsuploader
+    environment:
+      - DICOM_DIR=/raw_data
+      - QC_FILE=/qc_data/study_qc.json
+      - UPLOAD_SERVER_URL_INTERNAL=http://dicom_upload_server:8502
+    volumes:
+      - .:/app
+      - H:/IGHD_DICOM_VIEWER/raw_data:/raw_data:ro
+      - H:/IGHD_DICOM_VIEWER/qc_data:/qc_data:ro
+    networks:
+      - shared_proxy_network
+
+networks:
+  shared_proxy_network:
+    external: true

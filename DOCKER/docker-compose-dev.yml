@@ -55,7 +55,8 @@ services:
     restart: unless-stopped
     ports:
       - "8503:8503"
-    command: streamlit run dicom_upload_client.py --server.port=8503 --server.address=0.0.0.0 --server.baseUrlPath=dicomsuploader
+    command: streamlit run dicom_upload_client.py --server.port=8503 --server.address=0.0.0.0 --server.baseUrlPath=dicomuploader
+
     environment:
       - DICOM_DIR=/raw_data
       - QC_FILE=/qc_data/study_qc.json
@@ -69,4 +70,5 @@ services:
 
 networks:
   shared_proxy_network:
-    external: true
+    name: shared_proxy_network  # <-- Explicitly sets the exact network name
+    driver: bridge

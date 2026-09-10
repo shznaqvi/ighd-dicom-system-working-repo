@@ -206,13 +206,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\Working\DrMahnaz\pixelspacing_grouped\dicom_sr_measurements.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\Working\dicom_folder_report.csv">
           <value>
             <Attribute>
