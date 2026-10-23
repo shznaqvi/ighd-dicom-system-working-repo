@@ -155,6 +155,22 @@ QC_FILE = os.getenv("QC_FILE", "/qc_data/study_qc.json")
 
 UPLOADER_URL = f"http://{get_browser_host()}/dicomuploader"
 
+
+def check_storage_status(path: str):
+    """Verifies if the mounted DICOM directory exists before loading application data."""
+    if not os.path.exists(path):
+        st.error("⚠️ **Storage Volume Disconnected**")
+        st.warning(
+            f"The directory `{path}` is not accessible. "
+            "Please ensure the external hard drive is connected to the CERL workstation and restart the container."
+        )
+        st.info("💡 **Action:** Re-plug drive, run `wsl --shutdown` in PowerShell, then restart Docker.")
+        st.stop()
+
+
+# Call check with the configured DICOM directory
+check_storage_status(dicom_dir)
+
 # =========================================================
 # SESSION STATE & QC PERSISTENCE
 # =========================================================

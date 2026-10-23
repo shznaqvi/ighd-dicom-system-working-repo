@@ -1,4 +1,3 @@
-# dicom_upload_client.py
 import base64
 import json
 import math
@@ -22,9 +21,10 @@ def get_browser_host():
 
 HOST_NAME = get_browser_host()
 
-SERVER_URL = os.getenv("UPLOAD_SERVER_URL", f"http://{HOST_NAME}/dicomserver")
-INTERNAL_SERVER_URL = os.getenv("UPLOAD_SERVER_URL_INTERNAL", SERVER_URL)
-VIEWER_URL = os.getenv("VIEWER_URL", f"http://{HOST_NAME}/dicomviewer")
+# Sanitize trailing slashes to prevent route duplication
+SERVER_URL = os.getenv("UPLOAD_SERVER_URL", f"http://{HOST_NAME}/dicomserver").rstrip("/")
+INTERNAL_SERVER_URL = os.getenv("UPLOAD_SERVER_URL_INTERNAL", SERVER_URL).rstrip("/")
+VIEWER_URL = os.getenv("VIEWER_URL", f"http://{HOST_NAME}/dicomviewer").rstrip("/")
 VIABILITY_FILE = os.getenv("QC_FILE", "/qc_data/study_qc.json")
 
 
@@ -91,7 +91,7 @@ def load_qc_summary():
 def check_server_health():
     for target in [INTERNAL_SERVER_URL, SERVER_URL]:
         try:
-            r = requests.get(f"{target}/health", timeout=3)
+            r = requests.get(f"{target}/health", timeout=(5, 10))
             if r.ok:
                 return r.json()
         except requests.exceptions.RequestException:
@@ -103,17 +103,12 @@ def check_server_health():
 def fetch_studies():
     st.session_state["fetch_debug_info"] = []
 
-    targets = [
-        INTERNAL_SERVER_URL.rstrip("/"),
-        SERVER_URL.rstrip("/")
-    ]
-
-    targets = list(dict.fromkeys(targets))
+    targets = list(dict.fromkeys([INTERNAL_SERVER_URL, SERVER_URL]))
 
     for target in targets:
         url = f"{target}/studies"
         try:
-            r = requests.get(url, timeout=60)
+            r = requests.get(url, timeout=(5, 60))
             if r.ok:
                 data = r.json()
                 if isinstance(data, dict):
@@ -135,44 +130,66 @@ def fetch_studies():
     return []
 
 
+def delete_study_on_server(patient_id, study_uid):
+    """Sends a DELETE request to backend to completely remove unverified study."""
+    targets = list(dict.fromkeys([INTERNAL_SERVER_URL, SERVER_URL]))
+    for target in targets:
+        try:
+            url = f"{target}/studies/{patient_id}/{study_uid}"
+            r = requests.delete(url, timeout=(5, 30))
+            if r.ok:
+                return True, f"Successfully deleted study {study_uid} for Patient {patient_id}."
+
+            url_alt = f"{target}/studies?patient_id={patient_id}&study_uid={study_uid}"
+            r_alt = requests.delete(url_alt, timeout=(5, 30))
+            if r_alt.ok:
+                return True, f"Successfully deleted study {study_uid} for Patient {patient_id}."
+
+            return False, f"HTTP {r.status_code}: {r.text[:150]}"
+        except requests.exceptions.RequestException:
+            continue
+    return False, "Failed to connect to backend server for deletion."
+
+
 # =========================================================
 # 2. UPLOAD HTML COMPONENT
 # =========================================================
-UPLOAD_COMPONENT_HTML = f"""
+# Standard string (NO 'f' prefix) -> eliminates f-string curly-brace parsing errors
+UPLOAD_COMPONENT_HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <style>
-  * {{ box-sizing: border-box; font-family: sans-serif; margin: 0; padding: 0; }}
-  body {{ background: transparent; padding: 12px; color: #eee; }}
-  #drop-zone {{
+  * { box-sizing: border-box; font-family: sans-serif; margin: 0; padding: 0; }
+  body { background: transparent; padding: 12px; color: #eee; }
+  #drop-zone {
     border: 2px dashed #555; border-radius: 10px; padding: 25px;
     text-align: center; color: #888; cursor: pointer; transition: 0.3s;
-  }}
-  #drop-zone:hover {{ border-color: #ff4b4b; background: rgba(255, 75, 75, 0.05); }}
-  .btn {{ padding: 10px 20px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; margin-top: 10px; width: 100%; }}
-  .btn-primary {{ background: #ff4b4b; color: #fff; }}
-  .btn-primary:disabled {{ background: #444; color: #777; cursor: not-allowed; }}
+  }
+  #drop-zone:hover { border-color: #ff4b4b; background: rgba(255, 75, 75, 0.05); }
+  .btn { padding: 10px 20px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; margin-top: 10px; width: 100%; }
+  .btn-primary { background: #ff4b4b; color: #fff; }
+  .btn-primary:disabled { background: #444; color: #777; cursor: not-allowed; }
 
-  #progress-wrap {{ display: none; margin-top: 15px; }}
-  #progress-bar-bg {{ background: #333; height: 12px; border-radius: 6px; overflow: hidden; }}
-  #progress-bar {{ height: 100%; background: #4bff4b; width: 0%; transition: 0.3s; }}
+  #progress-wrap { display: none; margin-top: 15px; }
+  #progress-bar-bg { background: #333; height: 12px; border-radius: 6px; overflow: hidden; }
+  #progress-bar { height: 100%; background: #4bff4b; width: 0%; transition: 0.3s; }
 
-  .error-text {{ color: #ff4b4b; font-weight: bold; }}
-  .warning-text {{ color: #ff9800; font-weight: bold; }}
+  .error-text { color: #ff4b4b; font-weight: bold; font-size: 11px; }
+  .warning-text { color: #ff9800; font-weight: bold; font-size: 11px; }
 
-  .stats-row {{ display: flex; justify-content: space-between; font-size: 11px; margin-top: 8px; color: #aaa; }}
-  .processing-anim {{ color: #ff9800; font-weight: bold; animation: blink 1s infinite; }}
-  @keyframes blink {{ 0% {{ opacity: 1; }} 50% {{ opacity: 0.5; }} 100% {{ opacity: 1; }} }}
+  .stats-row { display: flex; justify-content: space-between; font-size: 11px; margin-top: 8px; color: #aaa; }
+  .processing-anim { color: #ff9800; font-weight: bold; animation: blink 1s infinite; }
+  @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
 </style>
 </head>
 <body>
 
 <div id="drop-zone" onclick="document.getElementById('file-input').click()">
-  📁 <strong>Select DICOM Folder</strong>
-  <p style="font-size: 11px; margin-top: 5px;">Capturing: Patient / Follow-up structure</p>
+  📁 <strong>Select Participant Folder</strong>
+  <p style="font-size: 11px; margin-top: 5px;">Structure required: <code>Participant / Study_Subfolder / *.dcm</code></p>
   <input type="file" id="file-input" webkitdirectory multiple onchange="onFiles(this.files)" style="display:none"/>
 </div>
 
@@ -192,26 +209,67 @@ UPLOAD_COMPONENT_HTML = f"""
 </div>
 
 <script>
-const SERVER = "{SERVER_URL}";
+const SERVER = "__SERVER_URL__".replace(/\/$/, "");
 let selectedFiles = [];
 
-function generateUUID() {{
+function generateUUID() {
   if (typeof crypto.randomUUID === 'function') return crypto.randomUUID();
-  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {{
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
     var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
     return v.toString(16);
-  }});
-}}
+  });
+}
 
-function onFiles(list) {{
-  selectedFiles = Array.from(list).filter(f => 
+function onFiles(list) {
+  const allFiles = Array.from(list);
+  const summaryEl = document.getElementById('summary');
+  const upBtn = document.getElementById('up-btn');
+
+  if (allFiles.length === 0) {
+    summaryEl.innerHTML = '<span class="error-text">❌ No files selected.</span>';
+    upBtn.disabled = true;
+    return;
+  }
+
+  let directFilesCount = 0;
+  let studyFolders = new Set();
+
+  allFiles.forEach(f => {
+    const parts = f.webkitRelativePath.split('/');
+    if (parts.length === 2) {
+      directFilesCount++;
+    } else if (parts.length >= 3) {
+      studyFolders.add(parts[1]);
+    }
+  });
+
+  if (directFilesCount > 0) {
+    summaryEl.innerHTML = `<span class="error-text">❌ Invalid Structure! Found ${directFilesCount} file(s) instead of study sub-folder. Please put all files inside a study subfolder.</span>`;
+    upBtn.disabled = true;
+    return;
+  }
+
+  if (studyFolders.size === 0) {
+    summaryEl.innerHTML = '<span class="error-text">❌ Invalid Structure! Selected folder must contain at least one study subfolder inside it.</span>';
+    upBtn.disabled = true;
+    return;
+  }
+
+  selectedFiles = allFiles.filter(f => 
     f.name.toLowerCase().endsWith('.dcm') || !f.name.includes('.')
   );
-  document.getElementById('summary').textContent = selectedFiles.length + " DICOM files identified.";
-  document.getElementById('up-btn').disabled = selectedFiles.length === 0;
-}}
 
-async function startBundleAndUpload() {{
+  if (selectedFiles.length === 0) {
+    summaryEl.innerHTML = '<span class="error-text">❌ No DICOM files found inside the study subfolders.</span>';
+    upBtn.disabled = true;
+    return;
+  }
+
+  summaryEl.innerHTML = `<span style="color: #4bff4b; font-weight: bold;">✅ Valid Structure!</span> Identified ${studyFolders.size} study folder(s) with ${selectedFiles.length} DICOM files.`;
+  upBtn.disabled = false;
+}
+
+async function startBundleAndUpload() {
   const upBtn = document.getElementById('up-btn');
   const zip = new JSZip();
   const progBar = document.getElementById('progress-bar');
@@ -223,27 +281,30 @@ async function startBundleAndUpload() {{
 
   progLab.textContent = "📦 Processing Patient/Follow-up paths...";
 
-  selectedFiles.forEach((file) => {{
+  selectedFiles.forEach((file) => {
     const parts = file.webkitRelativePath.split('/');
     const L = parts.length;
 
     let newPath;
-    if (L >= 3) {{
+    if (L >= 3) {
       newPath = parts[L-3] + "/" + parts[L-2] + "/" + parts[L-1];
-    }} else if (L === 2) {{
+    } else if (L === 2) {
       newPath = parts[L-2] + "/" + parts[L-1];
-    }} else {{
+    } else {
       newPath = file.name;
-    }}
+    }
 
     zip.file(newPath, file);
-  }});
+  });
 
-  const zipBlob = await zip.generateAsync({{type:"blob"}}, (meta) => {{
+  const zipBlob = await zip.generateAsync({
+    type: "blob",
+    compression: "STORE"
+  }, (meta) => {
     const p = Math.round(meta.percent * 0.3);
     progBar.style.width = p + '%';
     progPct.textContent = p + '%';
-  }});
+  });
 
   progLab.textContent = "📤 Uploading Bundle...";
   const startTime = Date.now();
@@ -254,92 +315,95 @@ async function startBundleAndUpload() {{
   fd.append('session_id', mySessionId);
 
   const xhr = new XMLHttpRequest();
-  xhr.open("POST", SERVER + "/upload-zip", true);
+  xhr.open("POST", SERVER + "/upload", true);
 
   let pollInterval = null;
 
-  xhr.upload.onprogress = (e) => {{
-    if (e.lengthComputable) {{
+  xhr.upload.onprogress = (e) => {
+    if (e.lengthComputable) {
       const upPct = (e.loaded / e.total) * 100;
       const totalPct = Math.round(30 + (upPct * 0.6)); 
 
-      if (!pollInterval) {{
+      if (!pollInterval) {
           progBar.style.width = totalPct + '%';
           progPct.textContent = totalPct + '%';
-      }}
+      }
 
-      if (upPct >= 100 && !pollInterval) {{
+      if (upPct >= 100 && !pollInterval) {
          progLab.innerHTML = '<span class="processing-anim">⚙️ Server-side Decompressing...</span>';
          document.getElementById('up-speed').textContent = "Upload Finished";
          document.getElementById('time-rem').textContent = "Extracting...";
 
-         pollInterval = setInterval(async () => {{
-             try {{
+         pollInterval = setInterval(async () => {
+             try {
                  const res = await fetch(SERVER + "/upload-progress/" + mySessionId);
                  const data = await res.json();
 
-                 if (data.total > 0) {{
+                 if (data.total > 0) {
                      const extPct = (data.done / data.total) * 100;
                      const overallPct = Math.round(90 + (extPct * 0.1));
 
                      progBar.style.width = overallPct + '%';
                      progPct.textContent = overallPct + '%';
                      progLab.textContent = "⚙️ Extracting: " + data.done + " / " + data.total + " files";
-                 }}
+                 }
 
-                 if (data.status === "completed" || data.status === "completed_with_errors" || data.status.startsWith("failed")) {{
+                 if (data.status === "completed" || data.status === "completed_with_errors" || data.status.startsWith("failed")) {
                      clearInterval(pollInterval);
                      progBar.style.width = '100%';
                      progPct.textContent = '100%';
 
-                     if (data.status === "completed") {{
+                     if (data.status === "completed") {
                          progLab.innerHTML = "✅ Complete! Table updates automatically";
-                     }} else if (data.status === "completed_with_errors") {{
+                     } else if (data.status === "completed_with_errors") {
                          progLab.innerHTML = "<span class='warning-text'>⚠️ Completed with warnings.</span>";
-                     }} else {{
+                     } else {
                          progLab.innerHTML = "<span class='error-text'>❌ Extraction Failed: " + data.status + "</span>";
-                     }}
+                     }
 
                      document.getElementById('time-rem').textContent = "Done";
                      upBtn.disabled = false;
-                 }}
-             }} catch (err) {{
+                 }
+             } catch (err) {
                  console.error("Polling error", err);
-             }}
-         }}, 500);
+             }
+         }, 500);
 
-      }} else if (upPct < 100) {{
+      } else if (upPct < 100) {
          const elapsed = (Date.now() - startTime) / 1000;
          const speedKbs = (e.loaded / 1024) / elapsed;
          document.getElementById('up-speed').textContent = speedKbs.toFixed(1) + " KB/s";
          const remSecs = (e.total - e.loaded) / (e.loaded / elapsed);
          document.getElementById('time-rem').textContent = Math.round(remSecs) + "s";
-      }}
-    }}
-  }};
+      }
+    }
+  };
 
-  xhr.onerror = () => {{
+  xhr.onerror = () => {
     if (pollInterval) clearInterval(pollInterval);
     progLab.innerHTML = "<span class='error-text'>❌ Connection Error: Cannot reach " + SERVER + "</span>";
     upBtn.disabled = false;
-  }};
+  };
 
-  xhr.onload = () => {{
-    if (xhr.status !== 200) {{
+  xhr.onload = () => {
+    if (xhr.status !== 200) {
       if (pollInterval) clearInterval(pollInterval);
       progLab.innerHTML = "<span class='error-text'>❌ Server HTTP Error: " + xhr.status + "</span>";
       upBtn.disabled = false;
-    }}
-  }};
+    }
+  };
 
   xhr.send(fd);
-}}
+}
 
 if (window.Streamlit) Streamlit.setFrameHeight(560);
 </script>
 </body>
 </html>
 """
+
+# Inject SERVER_URL dynamically into the HTML template string
+UPLOAD_COMPONENT_HTML = UPLOAD_COMPONENT_HTML_TEMPLATE.replace("__SERVER_URL__", SERVER_URL)
 
 
 @st.fragment(run_every=60)
@@ -366,7 +430,6 @@ def ping_server_health():
 def render_inventory_table():
     st.subheader("📂 Server Inventory")
 
-    # Initialize state keys if not already present
     if "rows_per_page" not in st.session_state:
         st.session_state.rows_per_page = 25
     if "current_page" not in st.session_state:
@@ -378,15 +441,12 @@ def render_inventory_table():
     def reset_page():
         st.session_state.current_page = 1
 
-    col1, col2 = st.columns([1, 4])
+    col1, col2, col3 = st.columns([1.2, 1.8, 3])
     with col1:
         if st.button("🔄 Refresh List"):
             fetch_studies.clear()
             check_server_health.clear()
             st.rerun()
-
-    with col2:
-        st.caption(f"Auto-updating every 90s • Last checked: {time.strftime('%H:%M:%S')}")
 
     is_healthy = check_server_health()
 
@@ -396,7 +456,7 @@ def render_inventory_table():
             df = pd.DataFrame(studies)
             qc_summary = load_qc_summary()
 
-            def format_asset_breakout(row):
+            def process_qc_status(row):
                 imgs = row.get("images_count", 0)
                 vids = row.get("videos_count", 0)
                 reps = row.get("reports_count", 0)
@@ -411,20 +471,66 @@ def render_inventory_table():
 
                 qc = qc_summary.get((str(row["patient_id"]).rstrip("__") + str(row["study_uid"])[:8]), {})
                 v, g, a = qc.get("v", 0), qc.get("g", 0), qc.get("a", 0)
-                if v or g or a:
+
+                has_qc = (v > 0 or g > 0 or a > 0)
+                if has_qc:
                     breakout_str += f" | (QC: V={v}, G={g}, A={a})"
+                    status = "⛔ Protected (Has QC)"
+                else:
+                    status = "🗑️ Eligible for Delete"
 
-                return breakout_str
+                return pd.Series([breakout_str, status, has_qc])
 
-            df["Asset Breakout"] = df.apply(format_asset_breakout, axis=1)
+            df[["Asset Breakout", "QC Status", "Has QC"]] = df.apply(process_qc_status, axis=1)
 
             df["Action"] = df.apply(
                 lambda row: f"{VIEWER_URL}/?StudyDate={row['study_uid'][0:8]}&PatientID={row['patient_id']}",
                 axis=1
             )
 
-            display_df = df[["patient_id", "study_uid", "Asset Breakout", "Action"]].copy()
-            display_df.columns = ["Patient ID", "Study UID", "Assets (Images / Videos / Reports)", "Action"]
+            deletable_df = df[~df["Has QC"]]
+            with col2:
+                if not deletable_df.empty:
+                    with st.popover("🗑️ Delete Study"):
+                        st.markdown("**Delete Unverified Study**")
+                        st.caption("Only studies with **0 QC entries** (V=0, G=0, A=0) can be deleted.")
+
+                        options = {
+                            f"{row['patient_id']} | {row['study_uid']}": (row['patient_id'], row['study_uid'])
+                            for _, row in deletable_df.iterrows()
+                        }
+
+                        selected_option = st.selectbox(
+                            "Select study to delete:",
+                            options=list(options.keys()),
+                            key="delete_study_selector"
+                        )
+
+                        if selected_option:
+                            pid, suid = options[selected_option]
+                            if st.button("⚠️ Confirm Delete", type="primary", key="confirm_del_btn"):
+                                success, msg = delete_study_on_server(pid, suid)
+                                if success:
+                                    st.toast(f"✅ {msg}", icon="🗑️")
+                                    fetch_studies.clear()
+                                    time.sleep(1)
+                                    st.rerun()
+                                else:
+                                    st.error(f"❌ Deletion failed: {msg}")
+                else:
+                    st.caption("🔒 All studies have active QC data.")
+
+            with col3:
+                st.caption(f"Auto-updating every 90s • Last checked: {time.strftime('%H:%M:%S')}")
+
+            display_df = df[["patient_id", "study_uid", "Asset Breakout", "QC Status", "Action"]].copy()
+            display_df.columns = [
+                "Patient ID",
+                "Study UID",
+                "Assets (Images / Videos / Reports)",
+                "Status",
+                "Action"
+            ]
 
             search_query = st.text_input(
                 "🔍 Search Inventory",
@@ -436,23 +542,19 @@ def render_inventory_table():
                 display_df = display_df[mask]
                 st.caption(f"Found {len(display_df)} results.")
 
-            # ------------------------------------------------------------------
-            # 1. Pagination Controls Setup
-            # ------------------------------------------------------------------
             col_size, col_page, col_info = st.columns([2, 2, 3])
 
             with col_size:
                 rows_per_page = st.selectbox(
                     "Rows per page",
                     options=[10, 25, 50, 100],
-                    key="rows_per_page",  # Binds dropdown directly to st.session_state
+                    key="rows_per_page",
                     on_change=on_rows_per_page_change
                 )
 
             total_rows = len(display_df)
             total_pages = max(1, math.ceil(total_rows / rows_per_page))
 
-            # Safety clamp: adjust page if out-of-bounds
             if st.session_state.current_page > total_pages:
                 st.session_state.current_page = total_pages
 
@@ -465,9 +567,6 @@ def render_inventory_table():
                     step=1
                 )
 
-            # ------------------------------------------------------------------
-            # 2. DataFrame Slicing
-            # ------------------------------------------------------------------
             start_idx = (current_page - 1) * rows_per_page
             end_idx = start_idx + rows_per_page
             paginated_df = display_df.iloc[start_idx:end_idx]
@@ -478,22 +577,19 @@ def render_inventory_table():
                     f"**{min(end_idx, total_rows)}** of **{total_rows}** entries"
                 )
 
-            # ------------------------------------------------------------------
-            # 3. Dynamic Height & Render Dataframe
-            # ------------------------------------------------------------------
-            # Dynamically set table height to physically expand/contract the UI
             calculated_height = (len(paginated_df) + 1) * 35 + 3
 
             st.dataframe(
                 paginated_df,
-                use_container_width=True,
-                height=calculated_height,  # Expands table height based on current slice size
+                width='stretch',
+                height=calculated_height,
                 hide_index=True,
                 column_config={
                     "Patient ID": st.column_config.TextColumn("Patient ID"),
                     "Study UID": st.column_config.TextColumn("Study UID"),
                     "Assets (Images / Videos / Reports)": st.column_config.TextColumn(
                         "Assets (Images / Videos / Reports)"),
+                    "Status": st.column_config.TextColumn("QC Status"),
                     "Action": st.column_config.LinkColumn("Open Study", display_text="👁️ Open Viewer")
                 }
             )
@@ -512,7 +608,11 @@ with st.sidebar:
     st.divider()
 
     st.subheader("📤 DICOM Upload")
-    b64_html = base64.b64encode(UPLOAD_COMPONENT_HTML.encode("utf-8")).decode("utf-8")
+
+    # Dynamically inject SERVER_URL into the HTML string before Base64 encoding
+    final_html = UPLOAD_COMPONENT_HTML_TEMPLATE.replace("__SERVER_URL__", SERVER_URL)
+    b64_html = base64.b64encode(final_html.encode("utf-8")).decode("utf-8")
+
     iframe_code = f"""
         <iframe 
             src="data:text/html;base64,{b64_html}" 

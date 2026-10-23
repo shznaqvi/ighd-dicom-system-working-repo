@@ -10,16 +10,31 @@ services:
     restart: unless-stopped
     ports:
       - "8501:8501"
-    command: streamlit run dicom_browser_app.py --server.port=8501 --server.address=0.0.0.0 --server.baseUrlPath=dicomviewer
+    command: >
+      streamlit run dicom_browser_app.py
+      --server.port=8501
+      --server.address=0.0.0.0
+      --server.baseUrlPath=dicomviewer
+      --server.enableCORS=false
+      --server.enableXsrfProtection=false
+      --server.headless=true
     environment:
       - DICOM_DIR=/raw_data
       - QC_FILE=/qc_data/study_qc.json
+      - TZ=Asia/Karachi
     volumes:
       - .:/app
-      - H:/IGHD_DICOM_VIEWER/raw_data:/raw_data:ro
-      - H:/IGHD_DICOM_VIEWER/qc_data:/qc_data:rw
+      # Uses EXTERNAL_DRIVE from .env (defaults to H: if not set)
+      - ${EXTERNAL_DRIVE:-H:}/IGHD_DICOM_VIEWER/raw_data:/raw_data:ro
+      - ${EXTERNAL_DRIVE:-H:}/IGHD_DICOM_VIEWER/qc_data:/qc_data:rw
     networks:
       - shared_proxy_network
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8501/dicomviewer/_stcore/health')" ]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
 
   # -----------------------------------------------------
   # 2. Upload Server Backend (FastAPI)
@@ -32,18 +47,24 @@ services:
     restart: unless-stopped
     ports:
       - "8502:8502"
-    command: uvicorn dicom_upload_server:app --host 0.0.0.0 --port 8502 --reload
+    command: uvicorn dicom_upload_server:app --host 0.0.0.0 --port 8502 --root-path /dicomserver
     environment:
       - PORT=8502
       - OUTPUT_DIR=/raw_data
       - QC_FILE=/qc_data/study_qc.json
+      - TZ=Asia/Karachi
     volumes:
       - .:/app
-      - H:/IGHD_DICOM_VIEWER/raw_data:/raw_data:rw
-      - H:/IGHD_DICOM_VIEWER/qc_data:/qc_data:rw
+      - ${EXTERNAL_DRIVE:-H:}/IGHD_DICOM_VIEWER/raw_data:/raw_data:rw
+      - ${EXTERNAL_DRIVE:-H:}/IGHD_DICOM_VIEWER/qc_data:/qc_data:rw
     networks:
       - shared_proxy_network
-
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8502/health', timeout=3)" ]
+      interval: 15s
+      timeout: 15s
+      retries: 3
+      start_period: 15s
   # -----------------------------------------------------
   # 3. Upload Client UI (Streamlit)
   # -----------------------------------------------------
@@ -55,18 +76,36 @@ services:
     restart: unless-stopped
     ports:
       - "8503:8503"
-    command: streamlit run dicom_upload_client.py --server.port=8503 --server.address=0.0.0.0 --server.baseUrlPath=dicomuploader
-
+    command: >
+      streamlit run dicom_upload_client.py
+      --server.port=8503
+      --server.address=0.0.0.0
+      --server.baseUrlPath=dicomuploader
+      --server.enableCORS=false
+      --server.enableXsrfProtection=false
+      --server.headless=true
+      --server.maxUploadSize=2000
+    depends_on:
+      dicom_upload_server:
+        condition: service_healthy
     environment:
       - DICOM_DIR=/raw_data
       - QC_FILE=/qc_data/study_qc.json
       - UPLOAD_SERVER_URL_INTERNAL=http://dicom_upload_server:8502
+      - TZ=Asia/Karachi
     volumes:
       - .:/app
-      - H:/IGHD_DICOM_VIEWER/raw_data:/raw_data:ro
-      - H:/IGHD_DICOM_VIEWER/qc_data:/qc_data:ro
+      # Dynamic drive binding (Read-Only access for uploader client)
+      - ${EXTERNAL_DRIVE:-H:}/IGHD_DICOM_VIEWER/raw_data:/raw_data:ro
+      - ${EXTERNAL_DRIVE:-H:}/IGHD_DICOM_VIEWER/qc_data:/qc_data:ro
     networks:
       - shared_proxy_network
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8503/dicomuploader/_stcore/health')" ]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
 
 networks:
   shared_proxy_network:
