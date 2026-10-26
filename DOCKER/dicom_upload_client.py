@@ -64,8 +64,56 @@ maximize_viewport()
 st.title("📡 IGHD DICOM Study Upload Client")
 
 
-def load_qc_summary():
-    """Reads QC JSON file directly from persistent storage."""
+# =========================================================
+# BATCH MANAGEMENT & QC JSON HELPERS
+# =========================================================
+def fetch_batches_from_server():
+    """Retrieves all custom batch folders from backend API."""
+    targets = list(dict.fromkeys([INTERNAL_SERVER_URL, SERVER_URL]))
+    for target in targets:
+        try:
+            r = requests.get(f"{target}/batches", timeout=5)
+            if r.ok:
+                return r.json()
+        except Exception:
+            continue
+    return []
+
+
+def create_batch_on_server(batch_name):
+    """Sends request to backend to create a new custom batch folder."""
+    targets = list(dict.fromkeys([INTERNAL_SERVER_URL, SERVER_URL]))
+    for target in targets:
+        try:
+            r = requests.post(f"{target}/batches", json={"batch_name": batch_name}, timeout=5)
+            if r.ok:
+                return True, f"Created batch folder '{batch_name}'."
+            return False, r.json().get("detail", "Failed to create batch.")
+        except Exception:
+            continue
+    return False, "Failed to reach server."
+
+
+def bulk_assign_batch_on_server(study_keys, batch_name):
+    """Sends bulk assignment payload for selected study keys."""
+    targets = list(dict.fromkeys([INTERNAL_SERVER_URL, SERVER_URL]))
+    for target in targets:
+        try:
+            r = requests.post(
+                f"{target}/studies/assign-batch",
+                json={"study_keys": study_keys, "batch_name": batch_name},
+                timeout=10
+            )
+            if r.ok:
+                return True, r.json().get("message", "Assigned successfully.")
+            return False, r.json().get("detail", "Failed to execute batch assignment.")
+        except Exception:
+            continue
+    return False, "Failed to send batch assignment request."
+
+
+def load_qc_and_batch_summary():
+    """Reads QC JSON file directly from persistent storage for QC stats and Batch Folder tags."""
     if not os.path.exists(VIABILITY_FILE):
         return {}
     try:
@@ -75,15 +123,24 @@ def load_qc_summary():
         return {}
 
     summary = {}
-    for record in data.values():
+    for key, record in data.items():
+        if key.startswith("_"):
+            continue
         pid = record.get("details", {}).get("case_no", "")
         vid = record.get("details", {}).get("date", "").replace("-", "")
         if not pid:
             continue
-        s = summary.setdefault(pid + vid, {"v": 0, "g": 0, "a": 0})
+
+        pkey = pid + vid
+        s = summary.setdefault(pkey, {
+            "v": 0, "g": 0, "a": 0,
+            "batch_name": record.get("batch_name", "Unassigned")
+        })
         if "Viability" in record: s["v"] += 1
         if "Growth" in record: s["g"] += 1
         if "Anomaly" in record: s["a"] += 1
+        s["batch_name"] = record.get("batch_name", "Unassigned")
+
     return summary
 
 
@@ -154,7 +211,6 @@ def delete_study_on_server(patient_id, study_uid):
 # =========================================================
 # 2. UPLOAD HTML COMPONENT
 # =========================================================
-# Standard string (NO 'f' prefix) -> eliminates f-string curly-brace parsing errors
 UPLOAD_COMPONENT_HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html>
@@ -402,7 +458,6 @@ if (window.Streamlit) Streamlit.setFrameHeight(560);
 </html>
 """
 
-# Inject SERVER_URL dynamically into the HTML template string
 UPLOAD_COMPONENT_HTML = UPLOAD_COMPONENT_HTML_TEMPLATE.replace("__SERVER_URL__", SERVER_URL)
 
 
@@ -424,11 +479,11 @@ def ping_server_health():
 
 
 # =========================================================
-# 3. INVENTORY TABLE COMPONENT
+# 3. INVENTORY TABLE COMPONENT WITH BATCH MANAGEMENT
 # =========================================================
 @st.fragment(run_every=90)
 def render_inventory_table():
-    st.subheader("📂 Server Inventory")
+    st.subheader("📂 Server Inventory & Batch Folder Assignment")
 
     if "rows_per_page" not in st.session_state:
         st.session_state.rows_per_page = 25
@@ -441,22 +496,16 @@ def render_inventory_table():
     def reset_page():
         st.session_state.current_page = 1
 
-    col1, col2, col3 = st.columns([1.2, 1.8, 3])
-    with col1:
-        if st.button("🔄 Refresh List"):
-            fetch_studies.clear()
-            check_server_health.clear()
-            st.rerun()
-
     is_healthy = check_server_health()
 
     if is_healthy:
         studies = fetch_studies()
         if studies:
             df = pd.DataFrame(studies)
-            qc_summary = load_qc_summary()
+            qc_batch_summary = load_qc_and_batch_summary()
 
-            def process_qc_status(row):
+            # Process QC status & Batch Folder assignments
+            def process_study_meta(row):
                 imgs = row.get("images_count", 0)
                 vids = row.get("videos_count", 0)
                 reps = row.get("reports_count", 0)
@@ -469,8 +518,12 @@ def render_inventory_table():
 
                 breakout_str = " • ".join(parts) if parts else str(tot)
 
-                qc = qc_summary.get((str(row["patient_id"]).rstrip("__") + str(row["study_uid"])[:8]), {})
+                study_key = str(row["patient_id"]).rstrip("__") + str(row["study_uid"])[:8]
+                qc = qc_batch_summary.get(study_key, {})
                 v, g, a = qc.get("v", 0), qc.get("g", 0), qc.get("a", 0)
+
+                # Check backend API row response first, then fallback to local QC summary
+                batch = row.get("batch_name") or qc.get("batch_name", "Unassigned")
 
                 has_qc = (v > 0 or g > 0 or a > 0)
                 if has_qc:
@@ -479,14 +532,29 @@ def render_inventory_table():
                 else:
                     status = "🗑️ Eligible for Delete"
 
-                return pd.Series([breakout_str, status, has_qc])
+                return pd.Series([breakout_str, status, has_qc, batch, study_key])
 
-            df[["Asset Breakout", "QC Status", "Has QC"]] = df.apply(process_qc_status, axis=1)
+            df[["Asset Breakout", "QC Status", "Has QC", "Batch Folder", "StudyKey"]] = df.apply(process_study_meta,
+                                                                                                 axis=1)
 
             df["Action"] = df.apply(
                 lambda row: f"{VIEWER_URL}/?StudyDate={row['study_uid'][0:8]}&PatientID={row['patient_id']}",
                 axis=1
             )
+
+            # -----------------------------------------------------------------
+            # TOP ACTION BAR: REFRESH, DELETE & BATCH MANAGEMENT
+            # -----------------------------------------------------------------
+            server_batches = fetch_batches_from_server()
+            available_batch_names = ["Unassigned"] + [b["batch_name"] for b in server_batches]
+
+            col1, col2, col3, col4 = st.columns([1.2, 1.5, 2, 2.2])
+
+            with col1:
+                if st.button("🔄 Refresh List"):
+                    fetch_studies.clear()
+                    check_server_health.clear()
+                    st.rerun()
 
             deletable_df = df[~df["Has QC"]]
             with col2:
@@ -518,29 +586,71 @@ def render_inventory_table():
                                 else:
                                     st.error(f"❌ Deletion failed: {msg}")
                 else:
-                    st.caption("🔒 All studies have active QC data.")
+                    st.caption("🔒 All studies protected.")
 
             with col3:
+                with st.popover("➕ Create Custom Batch"):
+                    st.markdown("**Create New Batch Folder**")
+                    new_bname = st.text_input("Folder Name", placeholder="e.g. QC Batch 1")
+                    if st.button("Save Batch Folder", type="primary"):
+                        if new_bname.strip():
+                            ok, msg = create_batch_on_server(new_bname.strip())
+                            if ok:
+                                st.toast(f"✅ Created folder '{new_bname}'", icon="📁")
+                                time.sleep(0.5)
+                                st.rerun()
+                            else:
+                                st.error(msg)
+
+            with col4:
                 st.caption(f"Auto-updating every 90s • Last checked: {time.strftime('%H:%M:%S')}")
 
-            display_df = df[["patient_id", "study_uid", "Asset Breakout", "QC Status", "Action"]].copy()
+            # -----------------------------------------------------------------
+            # BULK BATCH ASSIGNMENT TOOLBAR
+            # -----------------------------------------------------------------
+            st.markdown("---")
+            b_col1, b_col2 = st.columns([3, 2])
+
+            with b_col1:
+                target_batch = st.selectbox(
+                    "Target Batch Folder for Selection",
+                    options=available_batch_names,
+                    key="target_batch_selector"
+                )
+
+            with b_col2:
+                st.write("")  # Vertical alignment padding
+                assign_trigger = st.button("🏷️ Assign Selected Studies to Batch", type="primary")
+
+            # -----------------------------------------------------------------
+            # DATA TABLE WITH MULTI-SELECT CHECKBOXES
+            # -----------------------------------------------------------------
+            if "Select" not in df.columns:
+                df.insert(0, "Select", False)
+
+            display_df = df[
+                ["Select", "patient_id", "study_uid", "Batch Folder", "Asset Breakout", "QC Status", "Action",
+                 "StudyKey"]].copy()
             display_df.columns = [
+                "Select",
                 "Patient ID",
                 "Study UID",
+                "Batch Folder",
                 "Assets (Images / Videos / Reports)",
                 "Status",
-                "Action"
+                "Action",
+                "StudyKey"
             ]
 
             search_query = st.text_input(
                 "🔍 Search Inventory",
-                placeholder="Type Patient ID or Study...",
+                placeholder="Type Patient ID, Study UID, or Batch Folder...",
                 on_change=reset_page
             )
             if search_query:
                 mask = display_df.astype(str).apply(lambda x: x.str.contains(search_query, case=False)).any(axis=1)
                 display_df = display_df[mask]
-                st.caption(f"Found {len(display_df)} results.")
+                st.caption(f"Found {len(display_df)} matching result(s).")
 
             col_size, col_page, col_info = st.columns([2, 2, 3])
 
@@ -569,7 +679,7 @@ def render_inventory_table():
 
             start_idx = (current_page - 1) * rows_per_page
             end_idx = start_idx + rows_per_page
-            paginated_df = display_df.iloc[start_idx:end_idx]
+            paginated_df = display_df.iloc[start_idx:end_idx].copy()
 
             with col_info:
                 st.caption(
@@ -579,20 +689,40 @@ def render_inventory_table():
 
             calculated_height = (len(paginated_df) + 1) * 35 + 3
 
-            st.dataframe(
+            # Interactive Data Editor for Row Selection
+            edited_df = st.data_editor(
                 paginated_df,
                 width='stretch',
                 height=calculated_height,
                 hide_index=True,
                 column_config={
-                    "Patient ID": st.column_config.TextColumn("Patient ID"),
-                    "Study UID": st.column_config.TextColumn("Study UID"),
+                    "Select": st.column_config.CheckboxColumn("Select", default=False),
+                    "Patient ID": st.column_config.TextColumn("Patient ID", disabled=True),
+                    "Study UID": st.column_config.TextColumn("Study UID", disabled=True),
+                    "Batch Folder": st.column_config.TextColumn("Batch Folder", disabled=True),
                     "Assets (Images / Videos / Reports)": st.column_config.TextColumn(
-                        "Assets (Images / Videos / Reports)"),
-                    "Status": st.column_config.TextColumn("QC Status"),
-                    "Action": st.column_config.LinkColumn("Open Study", display_text="👁️ Open Viewer")
+                        "Assets (Images / Videos / Reports)", disabled=True),
+                    "Status": st.column_config.TextColumn("QC Status", disabled=True),
+                    "Action": st.column_config.LinkColumn("Open Study", display_text="👁️ Open Viewer", disabled=True),
+                    "StudyKey": None  # Hidden helper key
                 }
             )
+
+            # Handle Bulk Batch Assignment Action
+            if assign_trigger:
+                selected_rows = edited_df[edited_df["Select"] == True]
+                if selected_rows.empty:
+                    st.warning("⚠️ Please check the selection boxes for the studies you want to assign.")
+                else:
+                    selected_keys = selected_rows["StudyKey"].tolist()
+                    ok, msg = bulk_assign_batch_on_server(selected_keys, target_batch)
+                    if ok:
+                        st.toast(f"✅ {msg}", icon="🏷️")
+                        fetch_studies.clear()
+                        time.sleep(1)
+                        st.rerun()
+                    else:
+                        st.error(f"❌ {msg}")
         else:
             st.info("No studies found on server. Start an upload to see data here.")
     else:

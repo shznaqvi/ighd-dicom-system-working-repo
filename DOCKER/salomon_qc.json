@@ -1,0 +1,107 @@
+{
+  "1101011-0003-001-01-02_20251103": {
+    "study_metadata": {
+      "participant_id": "1101011-0003-001-01-02",
+      "followup_date": "2025-11-03",
+      "performing_physician_name": "01",
+      "reviewer_id": "DR-NAQVI",
+      "gestational_age_weeks": 20.29,
+      "gestational_age_formatted": "20w+2d",
+      "gestational_age_days": 142,
+      "review_timestamp": "2026-10-23T17:05:00Z"
+    },
+    "planes": {
+      "1.2.276.0.26.1.1.1.2.2025.344.34121.4865212.24903680": {
+        "plane_type": "BPD_HC",
+        "scores": {
+          "symmetrical_shape": 1,
+          "falx_cerebri": 1,
+          "cavum_septi_pellucidi": 1,
+          "thalami_symmetry": 1,
+          "cerebellum_absent": 1,
+          "magnification_calipers": 1
+        },
+        "total_score": 6,
+        "max_score": 6,
+        "plane_status": "PASS",
+        "defect_reasons": []
+      },
+      "1.2.276.0.26.1.1.1.2.2025.344.34121.4865212.24903681": {
+        "plane_type": "AC",
+        "scores": {
+          "circular_shape": 1,
+          "umbilical_vein": 1,
+          "stomach_bubble": 1,
+          "kidneys_lungs_absent": 0,
+          "symmetrical_ribs": 1,
+          "magnification_calipers": 0
+        },
+        "total_score": 4,
+        "max_score": 6,
+        "plane_status": "FAIL",
+        "defect_reasons": [
+          "Suboptimal anatomical plane section",
+          "Inadequate magnification / scaling"
+        ]
+      },
+      "1.2.276.0.26.1.1.1.2.2025.344.34121.4865212.24903682": {
+        "plane_type": "FL",
+        "scores": {
+          "diaphysis_visible": 1,
+          "horizontal_alignment": 1,
+          "no_epiphysis": 1,
+          "perpendicular_beam": 1,
+          "sharp_interface": 1,
+          "magnification_calipers": 1
+        },
+        "total_score": 6,
+        "max_score": 6,
+        "plane_status": "PASS",
+        "defect_reasons": []
+      }
+    },
+    "study_summary": {
+      "total_planes_evaluated": 3,
+      "total_points_earned": 16,
+      "total_points_possible": 18,
+      "aggregate_percentage": 88.89,
+      "overall_study_status": "PASS"
+    }
+  },
+  "1101011-0003-001-01-03_20251105": {
+    "study_metadata": {
+      "participant_id": "1101011-0003-001-01-03",
+      "followup_date": "2025-11-05",
+      "performing_physician_name": "02",
+      "reviewer_id": "DR-NAQVI",
+      "gestational_age_weeks": 12.57,
+      "gestational_age_formatted": "12w+4d",
+      "gestational_age_days": 88,
+      "review_timestamp": "2026-10-23T17:15:22Z"
+    },
+    "planes": {
+      "1.2.276.0.26.1.1.1.2.2025.344.34121.4865212.24903690": {
+        "plane_type": "CRL",
+        "scores": {
+          "midsagittal_profile": 1,
+          "horizontal_alignment": 1,
+          "amniotic_membrane": 1,
+          "caliper_placement": 1,
+          "neutral_position": 1,
+          "magnification_calipers": 1
+        },
+        "total_score": 6,
+        "max_score": 6,
+        "plane_status": "PASS",
+        "defect_reasons": []
+      }
+    },
+    "study_summary": {
+      "total_planes_evaluated": 1,
+      "total_points_earned": 6,
+      "total_points_possible": 6,
+      "aggregate_percentage": 100.0,
+      "overall_study_status": "PASS"
+    }
+  }
+}

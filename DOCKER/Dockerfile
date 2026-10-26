@@ -16,4 +16,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 8501 8502 8503
+# Expose ports for all 5 microservices
+EXPOSE 8501 8502 8503 8504 8505

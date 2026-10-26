@@ -895,7 +895,7 @@ def render_qc_forms_panel(study_uid, patient_id, display_date, file_items, study
             st.info("No SR measurements found for this study.")
 
     # Doctor Mapping with Multi-tier Fallback
-    DOCTOR_MAP = {"00": "", "01": "Dr. A", "02": "Dr. B", "03": "Dr. C"}
+    DOCTOR_MAP = {"00": "", "01": "Dr. Amber", "02": "Dr. Mahnoor", "03": "Dr. Sadaf", "04": "Dr. Santoshi"}
     doctor_options = list(DOCTOR_MAP.values())
 
     raw_operator = str(study_df.iloc[0].get("OperatorsName", "")).strip() if not study_df.empty else ""
